@@ -1,0 +1,19 @@
+import java.util.*;
+class student
+{
+	public static void main (String arg[])
+	{
+	 String USN ;
+	 String NAME ;
+	 int MARKS;
+	 Scanner s = new Scanner (System.in);
+	 System.out.println("Enter USN ");
+	 String a = s.next();
+	 System.out.println("Enter NAME");
+	 String b =s.next();
+	 System.out.println("Enter MARKS obtained");
+	 int c = s.nextInt();
+	 if ( c<45)
+	 System.out.println("grade is C");
+	 }
+}
